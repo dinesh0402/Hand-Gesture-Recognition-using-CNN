@@ -18,8 +18,8 @@ Finally, we create a CNN on top of this Base image classifier and keep the optim
 <br>
 <br>
 <div style="display:grid">
-  <img src="Acc Vs Epochs.jpg" style="height:400px;width:400px;float:left">
-  <img src="Loss Vs Epochs.jpg" style="height:400px;width:400px;float:left">
+  <img src="Acc Vs Epochs.jpg" style="height:300px;width:300px;float:left">
+  <img src="Loss Vs Epochs.jpg" style="height:300px;width:300px;float:left">
 </div>
 <br>
 <br>
