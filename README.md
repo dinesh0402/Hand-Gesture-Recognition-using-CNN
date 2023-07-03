@@ -14,7 +14,13 @@ Before we start building the CNN, we shall prepare the image set by performing n
 Now, we initialize the device for running the CNN (either CPU or GPU : but choose GPU else the kernel might crash). Create the dataloader for the device and load the tensors (ofc coz we are using Pytorch) of the datasets into the device. Now, create a Base image classifer using "cross entropy" as the loss function.
 <br>
 <br>
-Finally, we create a CNN on top of this Base image classifier and keep the optimizer as "Adam" optimizer for handling large datasets. Fit to this CNN for 10 epochs and validate it aginst the validation set. Finaaly, test it against the test set to get the classification report.
+Finally, we create a CNN on top of this Base image classifier and keep the optimizer as "Adam" optimizer for handling large datasets. Fit to this CNN for 10 epochs and validate it aginst the validation set. Finaaly, test it against the test set to get the classification report. The results of loss and accuracy across the 10 epochs are given below:
+<br>
+<br>
+<div style="display:grid">
+  <img src="Acc Vs Epochs.jpg" style="height:400px;width:400px;float:left">
+  <img src="Loss Vs Epochs.jpg" style="height:400px;width:400px;float:left">
+</div>
 <br>
 <br>
 <b>We acquire 99% accuracy !!!</b>
